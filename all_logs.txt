@@ -1,0 +1,392 @@
+Trace file: traces/eqntott_synth.txt
+Benchmark:  eqntott
+
+=== Two-Level Adaptive Training (AT) Schemes ===
+
+AT_AHRT_256_12_A2
+  Total branches:   50000
+  Correct predicts: 27612
+  Accuracy:         55.22 %
+  HW cost (approx): 11264 bits
+
+AT_AHRT_512_12_A2
+  Total branches:   50000
+  Correct predicts: 27612
+  Accuracy:         55.22 %
+  HW cost (approx): 14336 bits
+
+AT_HHRT_256_12_A2
+  Total branches:   50000
+  Correct predicts: 27612
+  Accuracy:         55.22 %
+  HW cost (approx): 11264 bits
+
+AT_HHRT_512_12_A2
+  Total branches:   50000
+  Correct predicts: 27612
+  Accuracy:         55.22 %
+  HW cost (approx): 14336 bits
+
+AT_IHRT_12_A2
+  Total branches:   50000
+  Correct predicts: 27612
+  Accuracy:         55.22 %
+  HW cost (approx): 8252 bits
+
+AT_AHRT_512_12_LT
+  Total branches:   50000
+  Correct predicts: 26323
+  Accuracy:         52.65 %
+  HW cost (approx): 14336 bits
+
+AT_AHRT_512_12_A3
+  Total branches:   50000
+  Correct predicts: 27612
+  Accuracy:         55.22 %
+  HW cost (approx): 14336 bits
+
+AT_AHRT_512_12_A4
+  Total branches:   50000
+  Correct predicts: 27612
+  Accuracy:         55.22 %
+  HW cost (approx): 14336 bits
+
+AT_AHRT_512_10_A2
+  Total branches:   50000
+  Correct predicts: 27048
+  Accuracy:         54.10 %
+  HW cost (approx): 7168 bits
+
+AT_AHRT_512_8_A2
+  Total branches:   50000
+  Correct predicts: 26900
+  Accuracy:         53.80 %
+  HW cost (approx): 4608 bits
+
+AT_AHRT_512_6_A2
+  Total branches:   50000
+  Correct predicts: 26635
+  Accuracy:         53.27 %
+  HW cost (approx): 3200 bits
+
+=== Baseline Predictors ===
+
+AlwaysTaken
+  Total branches:   50000
+  Correct predicts: 29792
+  Accuracy:         59.58 %
+
+Bimodal2Bit
+  Total branches:   50000
+  Correct predicts: 26773
+  Accuracy:         53.55 %
+
+=== CSV (copy/paste into analysis/results.csv) ===
+benchmark,scheme,total,correct,accuracy,hw_bits
+eqntott,AT_AHRT_256_12_A2,50000,27612,55.22,11264
+eqntott,AT_AHRT_512_12_A2,50000,27612,55.22,14336
+eqntott,AT_HHRT_256_12_A2,50000,27612,55.22,11264
+eqntott,AT_HHRT_512_12_A2,50000,27612,55.22,14336
+eqntott,AT_IHRT_12_A2,50000,27612,55.22,8252
+eqntott,AT_AHRT_512_12_LT,50000,26323,52.65,14336
+eqntott,AT_AHRT_512_12_A3,50000,27612,55.22,14336
+eqntott,AT_AHRT_512_12_A4,50000,27612,55.22,14336
+eqntott,AT_AHRT_512_10_A2,50000,27048,54.10,7168
+eqntott,AT_AHRT_512_8_A2,50000,26900,53.80,4608
+eqntott,AT_AHRT_512_6_A2,50000,26635,53.27,3200
+eqntott,AlwaysTaken,50000,29792,59.58,0
+eqntott,Bimodal2Bit,50000,26773,53.55,0
+Trace file: traces/espresso_synth.txt
+Benchmark:  espresso
+
+=== Two-Level Adaptive Training (AT) Schemes ===
+
+AT_AHRT_256_12_A2
+  Total branches:   50000
+  Correct predicts: 26167
+  Accuracy:         52.33 %
+  HW cost (approx): 11264 bits
+
+AT_AHRT_512_12_A2
+  Total branches:   50000
+  Correct predicts: 26167
+  Accuracy:         52.33 %
+  HW cost (approx): 14336 bits
+
+AT_HHRT_256_12_A2
+  Total branches:   50000
+  Correct predicts: 26167
+  Accuracy:         52.33 %
+  HW cost (approx): 11264 bits
+
+AT_HHRT_512_12_A2
+  Total branches:   50000
+  Correct predicts: 26167
+  Accuracy:         52.33 %
+  HW cost (approx): 14336 bits
+
+AT_IHRT_12_A2
+  Total branches:   50000
+  Correct predicts: 26167
+  Accuracy:         52.33 %
+  HW cost (approx): 8252 bits
+
+AT_AHRT_512_12_LT
+  Total branches:   50000
+  Correct predicts: 25669
+  Accuracy:         51.34 %
+  HW cost (approx): 14336 bits
+
+AT_AHRT_512_12_A3
+  Total branches:   50000
+  Correct predicts: 26167
+  Accuracy:         52.33 %
+  HW cost (approx): 14336 bits
+
+AT_AHRT_512_12_A4
+  Total branches:   50000
+  Correct predicts: 26167
+  Accuracy:         52.33 %
+  HW cost (approx): 14336 bits
+
+AT_AHRT_512_10_A2
+  Total branches:   50000
+  Correct predicts: 25900
+  Accuracy:         51.80 %
+  HW cost (approx): 7168 bits
+
+AT_AHRT_512_8_A2
+  Total branches:   50000
+  Correct predicts: 25644
+  Accuracy:         51.29 %
+  HW cost (approx): 4608 bits
+
+AT_AHRT_512_6_A2
+  Total branches:   50000
+  Correct predicts: 25648
+  Accuracy:         51.30 %
+  HW cost (approx): 3200 bits
+
+=== Baseline Predictors ===
+
+AlwaysTaken
+  Total branches:   50000
+  Correct predicts: 27102
+  Accuracy:         54.20 %
+
+Bimodal2Bit
+  Total branches:   50000
+  Correct predicts: 26701
+  Accuracy:         53.40 %
+
+=== CSV (copy/paste into analysis/results.csv) ===
+benchmark,scheme,total,correct,accuracy,hw_bits
+espresso,AT_AHRT_256_12_A2,50000,26167,52.33,11264
+espresso,AT_AHRT_512_12_A2,50000,26167,52.33,14336
+espresso,AT_HHRT_256_12_A2,50000,26167,52.33,11264
+espresso,AT_HHRT_512_12_A2,50000,26167,52.33,14336
+espresso,AT_IHRT_12_A2,50000,26167,52.33,8252
+espresso,AT_AHRT_512_12_LT,50000,25669,51.34,14336
+espresso,AT_AHRT_512_12_A3,50000,26167,52.33,14336
+espresso,AT_AHRT_512_12_A4,50000,26167,52.33,14336
+espresso,AT_AHRT_512_10_A2,50000,25900,51.80,7168
+espresso,AT_AHRT_512_8_A2,50000,25644,51.29,4608
+espresso,AT_AHRT_512_6_A2,50000,25648,51.30,3200
+espresso,AlwaysTaken,50000,27102,54.20,0
+espresso,Bimodal2Bit,50000,26701,53.40,0
+Trace file: traces/gcc_synth.txt
+Benchmark:  gcc
+
+=== Two-Level Adaptive Training (AT) Schemes ===
+
+AT_AHRT_256_12_A2
+  Total branches:   80000
+  Correct predicts: 41677
+  Accuracy:         52.10 %
+  HW cost (approx): 11264 bits
+
+AT_AHRT_512_12_A2
+  Total branches:   80000
+  Correct predicts: 41677
+  Accuracy:         52.10 %
+  HW cost (approx): 14336 bits
+
+AT_HHRT_256_12_A2
+  Total branches:   80000
+  Correct predicts: 41282
+  Accuracy:         51.60 %
+  HW cost (approx): 11264 bits
+
+AT_HHRT_512_12_A2
+  Total branches:   80000
+  Correct predicts: 41282
+  Accuracy:         51.60 %
+  HW cost (approx): 14336 bits
+
+AT_IHRT_12_A2
+  Total branches:   80000
+  Correct predicts: 41677
+  Accuracy:         52.10 %
+  HW cost (approx): 8312 bits
+
+AT_AHRT_512_12_LT
+  Total branches:   80000
+  Correct predicts: 40799
+  Accuracy:         51.00 %
+  HW cost (approx): 14336 bits
+
+AT_AHRT_512_12_A3
+  Total branches:   80000
+  Correct predicts: 41677
+  Accuracy:         52.10 %
+  HW cost (approx): 14336 bits
+
+AT_AHRT_512_12_A4
+  Total branches:   80000
+  Correct predicts: 41677
+  Accuracy:         52.10 %
+  HW cost (approx): 14336 bits
+
+AT_AHRT_512_10_A2
+  Total branches:   80000
+  Correct predicts: 41101
+  Accuracy:         51.38 %
+  HW cost (approx): 7168 bits
+
+AT_AHRT_512_8_A2
+  Total branches:   80000
+  Correct predicts: 41250
+  Accuracy:         51.56 %
+  HW cost (approx): 4608 bits
+
+AT_AHRT_512_6_A2
+  Total branches:   80000
+  Correct predicts: 41185
+  Accuracy:         51.48 %
+  HW cost (approx): 3200 bits
+
+=== Baseline Predictors ===
+
+AlwaysTaken
+  Total branches:   80000
+  Correct predicts: 43937
+  Accuracy:         54.92 %
+
+Bimodal2Bit
+  Total branches:   80000
+  Correct predicts: 43053
+  Accuracy:         53.82 %
+
+=== CSV (copy/paste into analysis/results.csv) ===
+benchmark,scheme,total,correct,accuracy,hw_bits
+gcc,AT_AHRT_256_12_A2,80000,41677,52.10,11264
+gcc,AT_AHRT_512_12_A2,80000,41677,52.10,14336
+gcc,AT_HHRT_256_12_A2,80000,41282,51.60,11264
+gcc,AT_HHRT_512_12_A2,80000,41282,51.60,14336
+gcc,AT_IHRT_12_A2,80000,41677,52.10,8312
+gcc,AT_AHRT_512_12_LT,80000,40799,51.00,14336
+gcc,AT_AHRT_512_12_A3,80000,41677,52.10,14336
+gcc,AT_AHRT_512_12_A4,80000,41677,52.10,14336
+gcc,AT_AHRT_512_10_A2,80000,41101,51.38,7168
+gcc,AT_AHRT_512_8_A2,80000,41250,51.56,4608
+gcc,AT_AHRT_512_6_A2,80000,41185,51.48,3200
+gcc,AlwaysTaken,80000,43937,54.92,0
+gcc,Bimodal2Bit,80000,43053,53.82,0
+Trace file: traces/li_synth.txt
+Benchmark:  li
+
+=== Two-Level Adaptive Training (AT) Schemes ===
+
+AT_AHRT_256_12_A2
+  Total branches:   30000
+  Correct predicts: 14990
+  Accuracy:         49.97 %
+  HW cost (approx): 11264 bits
+
+AT_AHRT_512_12_A2
+  Total branches:   30000
+  Correct predicts: 14990
+  Accuracy:         49.97 %
+  HW cost (approx): 14336 bits
+
+AT_HHRT_256_12_A2
+  Total branches:   30000
+  Correct predicts: 14990
+  Accuracy:         49.97 %
+  HW cost (approx): 11264 bits
+
+AT_HHRT_512_12_A2
+  Total branches:   30000
+  Correct predicts: 14990
+  Accuracy:         49.97 %
+  HW cost (approx): 14336 bits
+
+AT_IHRT_12_A2
+  Total branches:   30000
+  Correct predicts: 14990
+  Accuracy:         49.97 %
+  HW cost (approx): 8252 bits
+
+AT_AHRT_512_12_LT
+  Total branches:   30000
+  Correct predicts: 15042
+  Accuracy:         50.14 %
+  HW cost (approx): 14336 bits
+
+AT_AHRT_512_12_A3
+  Total branches:   30000
+  Correct predicts: 14990
+  Accuracy:         49.97 %
+  HW cost (approx): 14336 bits
+
+AT_AHRT_512_12_A4
+  Total branches:   30000
+  Correct predicts: 14990
+  Accuracy:         49.97 %
+  HW cost (approx): 14336 bits
+
+AT_AHRT_512_10_A2
+  Total branches:   30000
+  Correct predicts: 14900
+  Accuracy:         49.67 %
+  HW cost (approx): 7168 bits
+
+AT_AHRT_512_8_A2
+  Total branches:   30000
+  Correct predicts: 15037
+  Accuracy:         50.12 %
+  HW cost (approx): 4608 bits
+
+AT_AHRT_512_6_A2
+  Total branches:   30000
+  Correct predicts: 14996
+  Accuracy:         49.99 %
+  HW cost (approx): 3200 bits
+
+=== Baseline Predictors ===
+
+AlwaysTaken
+  Total branches:   30000
+  Correct predicts: 15025
+  Accuracy:         50.08 %
+
+Bimodal2Bit
+  Total branches:   30000
+  Correct predicts: 15140
+  Accuracy:         50.47 %
+
+=== CSV (copy/paste into analysis/results.csv) ===
+benchmark,scheme,total,correct,accuracy,hw_bits
+li,AT_AHRT_256_12_A2,30000,14990,49.97,11264
+li,AT_AHRT_512_12_A2,30000,14990,49.97,14336
+li,AT_HHRT_256_12_A2,30000,14990,49.97,11264
+li,AT_HHRT_512_12_A2,30000,14990,49.97,14336
+li,AT_IHRT_12_A2,30000,14990,49.97,8252
+li,AT_AHRT_512_12_LT,30000,15042,50.14,14336
+li,AT_AHRT_512_12_A3,30000,14990,49.97,14336
+li,AT_AHRT_512_12_A4,30000,14990,49.97,14336
+li,AT_AHRT_512_10_A2,30000,14900,49.67,7168
+li,AT_AHRT_512_8_A2,30000,15037,50.12,4608
+li,AT_AHRT_512_6_A2,30000,14996,49.99,3200
+li,AlwaysTaken,30000,15025,50.08,0
+li,Bimodal2Bit,30000,15140,50.47,0
