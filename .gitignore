@@ -1,0 +1,13 @@
+# Build artifacts
+bp_sim
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/Makefile
+/*.o
+
+# Editor stuff
+*.swp
+*.swo
+.vscode/
+.idea/
